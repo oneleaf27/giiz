@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>ガルパンはいいぞボタン</title>
+        <title>ガルパンはいいぞボタン α版</title>
         <meta name="Description" content="" />
         <meta name="Keywords"  content="" />
 
@@ -22,9 +22,8 @@
       <div id="contents">
         <div class="content">
           <div id="head">
-            <h1>「ガルパンはいいぞ」<br>をみんなでシェア<br>できるであります！</h1>
+            <h1>「ガルパンはいいぞ」<br>をみんなで共有<br>できるであります！</h1>
           </div>
-          <!-- <div id="add" class="btn btn-success btn-lg">いいぞ</div> -->
           <button id="add" type="button" class="btn btn-success btn-lg active">いいぞ</button>
           <div id="counter"></div>
           <div>
