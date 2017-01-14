@@ -14,7 +14,7 @@ $(function() {
   // カウントアップ処理
   function addCount() {
     $.ajax({
-      url:"add",
+      url:"/addCount",
       type:"POST",
       dataType:"JSON",
       cache:false
@@ -31,7 +31,8 @@ $(function() {
   // カウント取得処理
   function getCount() {
     $.ajax({
-      url:'get',
+      //url:"{{ url('/getCount') }}",
+      url:"/getCount",
       type:'post',
       dataType:'json',
       cache:false

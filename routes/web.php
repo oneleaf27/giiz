@@ -12,10 +12,9 @@
 */
 
 Route::get('/', function () {
-    //return view('welcome');
     return view('giiz');
 });
 
 
-Route::any('add', 'GiizController@addCount');
-Route::any('get', 'GiizController@getCount');
+Route::post('/addCount', 'GiizController@addCount');
+Route::post('/getCount', 'GiizController@getCount');

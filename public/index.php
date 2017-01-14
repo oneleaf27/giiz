@@ -20,6 +20,7 @@
 */
 
 require __DIR__.'/../bootstrap/autoload.php';
+//require '/Users/oneleaf/webapp/giiz/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,11 @@ require __DIR__.'/../bootstrap/autoload.php';
 */
 
 $app = require_once __DIR__.'/../bootstrap/app.php';
+/*$app = require_once '/Users/oneleaf/webapp/giiz/bootstrap/app.php';
+$app->bind('path.public', function() {
+    return __DIR__;
+});
+*/
 
 /*
 |--------------------------------------------------------------------------
