@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>ガルパンはいいぞセンター α版</title>
+        <title>ガルパンはいいぞセンター</title>
         <meta name="Description" content="「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！" />
-        <meta name="Keywords"  content="ガルパンはいいぞ, いいぞ, ガルパン, 共有, " />
+        <meta name="Keywords"  content="ガルパンはいいぞ, いいぞ, ガルパン, 共有" />
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
