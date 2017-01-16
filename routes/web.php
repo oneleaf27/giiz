@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('giiz');
+    return view('iiz');
 });
 
 
