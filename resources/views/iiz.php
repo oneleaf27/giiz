@@ -28,7 +28,7 @@
     </head>
     <body>
       <div id="contents" class="contents">
-        <h1>「ガルパンはいいぞ」<br>をみんなで共有して<br>集めるであります！</h1>
+        <h1>「ガルパンはいいぞ」<br>をみんなで共有できる<br>Webサービスであります！</h1>
         <button id="add" type="button" class="btn btn-success" title="ガルパンはいいぞ">いいぞ</button>
 
         <div id="counter"></div>
