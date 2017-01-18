@@ -16,7 +16,7 @@ body {
 /* コンテンツエリア */
 #contents {
 	width: 640px;
-	height: 460px;
+	height: 480px;
 	background: rgba(0,0,0,0.3);
 	position: absolute;
 	top: 50%;
@@ -63,7 +63,7 @@ body {
 /*
   スマホ
 */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
   body {
     /* 画像ファイルの指定 */
     background-image: url(../img/bg-iiz-s4.jpg);
@@ -77,5 +77,22 @@ body {
     background-size: cover;
     /* 背景画像が読み込まれる前に表示される背景のカラー */
     background-color: #464646;
+  }
+
+  #contents {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin: 0;
+    border: none;
+    border-radius: inherit;
+    background: none;
+    padding: 20px 4%;
+  }
+
+  #contents h1 {
+  	color: #fff;
+  	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+    font-size: 24px;
   }
 }
