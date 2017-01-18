@@ -22,7 +22,6 @@
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
           })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
           ga('create', 'UA-69814974-7', 'auto');
           ga('send', 'pageview');
         </script>
@@ -30,10 +29,15 @@
     <body>
       <div id="contents" class="contents">
         <h1>「ガルパンはいいぞ」<br>をみんなで共有して<br>集めるであります！</h1>
-        <button id="add" type="button" class="btn btn-success btn-lg active">いいぞ</button>
+        <button id="add" type="button" class="btn btn-success" title="ガルパンはいいぞ">いいぞ</button>
+
         <div id="counter"></div>
         <div>
           <ul id="onecount"></ul>
+        </div>
+        <div id="share">
+            <a class="btn btn-info" type="button" href="http://twitter.com/share?url=http://iiz.leafcenter.net/&text=「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！「ガルパンはいいぞカウンター」&hashtags=ガルパンはいいぞ" onclick="window.open(this.href, '', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" title="Twitterでツイートするであります！">ツイートするであります！</a>
+            <a class="btn btn-primary" type="button" href="http://www.facebook.com/share.php?u=http://iiz.leafcenter.net/" onclick="window.open(this.href,'FBwindow','width=650,height=450,menubar=no,toolbar=no,scrollbars=yes');return false;" title="Facebookでシェアするであります！">シェアするであります！</a>
         </div>
       </div>
     </body>
