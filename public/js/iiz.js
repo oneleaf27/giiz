@@ -5,8 +5,22 @@ $(function() {
     effectCount();
   });
 
+
+  ion.sound({
+    sounds: [
+        {name: "fire1"},
+        {name: "fire2"}
+    ],
+    volume: 0.3,
+    path: "sounds/",
+    preload: true,
+    multiplay: true
+});
+
+
   // いいぞボタンクリックイベント
   $('#add').on('click', function() {
+    ion.sound.play("fire2");  // 音声再生
     addCount();         // カウントアップ処理
     effectCount();      // カウンターの増加エフェクト処理
   });
@@ -24,7 +38,7 @@ $(function() {
 
     }).fail(function() {
       // 失敗時
-      alert('通信失敗であります！');
+      //alert('通信失敗であります！');
     });
   }
 
@@ -41,7 +55,7 @@ $(function() {
       $('#counter').html(count);
     }).fail(function(){
       // 失敗時
-      alert('通信失敗であります！');
+      //alert('通信失敗であります！');
     });
   }
 

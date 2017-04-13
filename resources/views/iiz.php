@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>ガルパンはいいぞカウンター</title>
+        <title>ガルパンはいいぞ ボタン＆カウンター</title>
         <meta name="Description" content="「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！" />
         <meta name="Keywords"  content="ガルパンはいいぞ", "いいぞ", "ガルパン", "共有", "ボタン", "カウンター"/>
 
@@ -16,6 +16,7 @@
         <!-- JavaScript -->
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/ion.sound.min.js"></script>
         <script type="text/javascript" src="js/iiz.js"></script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
