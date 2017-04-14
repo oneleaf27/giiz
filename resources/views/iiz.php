@@ -37,7 +37,7 @@
           <ul id="onecount"></ul>
         </div>
         <div id="share">
-            <a class="btn btn-info" type="button" href="http://twitter.com/share?url=http://iiz.leafcenter.net/&text=「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！「ガルパンはいいぞカウンター」&hashtags=ガルパンはいいぞ" onclick="window.open(this.href, '', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" title="Twitterでツイートするであります！">ツイートするであります！</a>
+            <a class="btn btn-info" type="button" href="http://twitter.com/share?url=http://iiz.leafcenter.net/&text=「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！「ガルパンはいいぞ ボタン＆カウンター」&hashtags=ガルパンはいいぞ" onclick="window.open(this.href, '', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;" title="Twitterでツイートするであります！">ツイートするであります！</a>
             <a class="btn btn-primary" type="button" href="http://www.facebook.com/share.php?u=http://iiz.leafcenter.net/" onclick="window.open(this.href,'FBwindow','width=650,height=450,menubar=no,toolbar=no,scrollbars=yes');return false;" title="Facebookでシェアするであります！">シェアするであります！</a>
         </div>
       </div>
