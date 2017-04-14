@@ -7,7 +7,7 @@
 
         <title>ガルパンはいいぞ ボタン＆カウンター</title>
         <meta name="Description" content="「ガルパンはいいぞ」をみんなで共有できるWebサービスであります！" />
-        <meta name="Keywords"  content="ガルパンはいいぞ", "いいぞ", "ガルパン", "共有", "ボタン", "カウンター"/>
+        <meta name="Keywords"  content="ガルパンはいいぞ", "いいぞ", "ガルパン", "ボタン", "カウンター"/>
 
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
